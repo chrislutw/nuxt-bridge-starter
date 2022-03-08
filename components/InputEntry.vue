@@ -12,8 +12,8 @@ const name = ref('')
       autocomplete="off"
       spellcheck="false"
       minlength="1"
-      required="required"
-      autofocus="autofocus"
+      required
+      autofocus
       p="x-4 y-2"
       m="t-5"
       w="250px"
@@ -21,11 +21,8 @@ const name = ref('')
       bg="transparent"
       border="~ rounded gray-200 dark:gray-700"
       outline="none active:none"
-    />
-    <button
-      type="submit"
-      class="block mx-auto my-3 text-sm btn"
     >
+    <button type="submit" class="mx-auto my-3 text-sm block btn">
       GO
     </button>
   </form>
